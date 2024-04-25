@@ -25,11 +25,11 @@ const services = [
     icon: mobile,
   },
   {
-    title: 'Java-Entwickler',
+    title: 'TypeScript-Entwickler',
     icon: backend,
   },
   {
-    title: 'Backend-Entwickler',
+    title: 'Java-Entwickler',
     icon: creator,
   },
 ]
@@ -70,6 +70,10 @@ const technologies = [
   {
     name: 'Three JS',
     icon: threejs,
+  },
+  {
+    name: 'Java',
+    icon: java1,
   },
   {
     name: 'git',
