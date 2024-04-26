@@ -1,0 +1,11 @@
+Model Information:
+* title:	Earth and Moon(Animated)
+* source:	https://sketchfab.com/3d-models/earth-and-moonanimated-7346263a68554cb3b536a872d5868374
+* author:	Mustafa Küçükavşar (https://sketchfab.com/kobol1)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Earth and Moon(Animated)" (https://sketchfab.com/3d-models/earth-and-moonanimated-7346263a68554cb3b536a872d5868374) by Mustafa Küçükavşar (https://sketchfab.com/kobol1) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
