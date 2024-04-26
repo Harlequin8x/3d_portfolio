@@ -14,11 +14,50 @@ const Contact = () => {
     email: '',
     message: '',
   })
+
   const [loading, setLoading] = useState(false)
 
-  const handleChange = (e) => {}
+  const handleChange = (e) => {
+    const { name, value } = e.target
 
-  const handleSubmit = (e) => {}
+    setForm({ ...form, [name]: value })
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    setLoading(true)
+
+    emailjs
+      .send(
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        {
+          from_name: form.name,
+          to_name: 'Janni',
+          from_email: form.email,
+          to_email: 'harlequin1722@gmail.com',
+          message: form.message,
+        },
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      )
+      .then(
+        () => {
+          setLoading(false)
+          alert('Vielen Dank für Ihre Nachricht. Ich werde mich so schnell wie möglich melden.')
+
+          setForm({
+            name: '',
+            email: '',
+            message: '',
+          })
+        },
+        (error) => {
+          setLoading(false)
+          console.log(error)
+          alert('Es ist etwas schief gelaufen.')
+        }
+      )
+  }
 
   return (
     <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
