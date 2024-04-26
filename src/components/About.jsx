@@ -1,11 +1,11 @@
-import React from 'react';
-import { Tilt } from 'react-tilt';
-import { motion } from 'framer-motion';
+import React from 'react'
+import { Tilt } from 'react-tilt'
+import { motion } from 'framer-motion'
 
-import { styles } from '../styles';
-import { services } from '../constants';
-import { fadeIn, textVariant } from '../utils/motion';
-import { SectionWrapper } from '../hoc';
+import { styles } from '../styles'
+import { services } from '../constants'
+import { fadeIn, textVariant } from '../utils/motion'
+import { SectionWrapper } from '../hoc'
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
@@ -32,8 +32,8 @@ const ServiceCard = ({ index, title, icon }) => {
         </div>
       </motion.div>
     </Tilt>
-  );
-};
+  )
+}
 
 const About = () => {
   return (
@@ -47,7 +47,8 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Ich bin ein Software-Entwickler mit Erfahrung in JavaScript, Typescript und Java, sowie Frameworks wie React, Node.js, Spring Boot und Angular.
+        Ich bin ein Software-Entwickler mit Erfahrung in JavaScript, Typescript und Java, sowie Frameworks wie React, Node.js,
+        Spring Boot und Angular.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
@@ -60,7 +61,7 @@ const About = () => {
         ))}
       </div>
     </>
-  );
-};
+  )
+}
 
-export default SectionWrapper(About, 'about');
+export default SectionWrapper(About, 'about')

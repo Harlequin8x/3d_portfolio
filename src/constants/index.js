@@ -1,4 +1,4 @@
-import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, docker, meta, starbucks, tesla, shopify, carrent, jobit, tripguide, threejs, java1, csharp1 } from '../assets'
+import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, docker, meta, starbucks, tesla, shopify, carrent, jobit, tripguide, threejs, java1, csharp1, metaverse } from '../assets'
 
 export const navLinks = [
   {
@@ -127,30 +127,6 @@ const experiences = [
   },
 ]
 
-const testimonials = [
-  {
-    testimonial: 'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
-  },
-  {
-    testimonial: "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  },
-  {
-    testimonial: "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
-  },
-]
-
 const projects = [
   {
     name: 'Metaverse Infinite',
@@ -161,16 +137,21 @@ const projects = [
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'next.js 13',
         color: 'green-text-gradient',
       },
       {
         name: 'tailwind',
         color: 'pink-text-gradient',
       },
+      {
+        name: 'framer motion',
+        color: 'orange-text-gradient',
+      },
     ],
-    image: carrent,
-    source_code_link: 'https://github.com/Harlequin8x/metaverse_infinite',
+    image: metaverse,
+    source_code_link: 'https://github.com/Harlequin8x/metaverse_infinite.git',
+    website_link: 'https://metaverse-infinite.de/'
   },
   {
     name: 'Job IT',
@@ -214,4 +195,4 @@ const projects = [
   // },
 ]
 
-export { services, technologies, experiences, testimonials, projects }
+export { services, technologies, experiences, projects }

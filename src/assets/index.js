@@ -6,6 +6,7 @@ import web from './web.png'
 import github from './github.png'
 import menu from './menu.svg'
 import close from './close.svg'
+import website from './website.png'
 
 import css from './tech/css.png'
 import docker from './tech/docker.png'
@@ -31,5 +32,6 @@ import tesla from './company/tesla.png'
 import carrent from './carrent.png'
 import jobit from './jobit.png'
 import tripguide from './tripguide.png'
+import metaverse from './metaverse.png'
 
-export { logo, backend, creator, mobile, web, github, menu, close, css, docker, figma, git, html, javascript, mongodb, nodejs, reactjs, redux, tailwind, typescript, threejs, meta, shopify, starbucks, tesla, carrent, jobit, tripguide, java1, csharp1 }
+export { metaverse, website, logo, backend, creator, mobile, web, github, menu, close, css, docker, figma, git, html, javascript, mongodb, nodejs, reactjs, redux, tailwind, typescript, threejs, meta, shopify, starbucks, tesla, carrent, jobit, tripguide, java1, csharp1 }
