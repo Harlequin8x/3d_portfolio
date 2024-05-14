@@ -152,7 +152,7 @@ const projects = [
   },
   {
     name: 'Fastray',
-    description: 'Hardware Shop.',
+    description: 'Hardware Shop',
     tags: [
       {
         name: 'react',
