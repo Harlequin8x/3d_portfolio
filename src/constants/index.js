@@ -1,4 +1,4 @@
-import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, mongodb, git, figma, docker, meta, starbucks, tesla, shopify, carrent, jobit, tripguide, threejs, java1, csharp1, metaverse } from '../assets'
+import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, tailwind, nodejs, mongodb, git, threejs, java1, csharp1, metaverse, fastray, portfolio } from '../assets'
 
 export const navLinks = [
   {
@@ -84,7 +84,6 @@ const technologies = [
 const experiences = [
   {
     title: 'C#',
-    company_name: 'Shopify',
     icon: csharp1,
     iconBg: '#383E56',
     date: 'Jan 2022 - Jan 2023',
@@ -95,7 +94,6 @@ const experiences = [
   },
   {
     title: 'Java',
-    company_name: 'Tesla',
     icon: java1,
     iconBg: '#383E56',
     date: 'Jan 2021 - Feb 2022',
@@ -105,7 +103,6 @@ const experiences = [
   },
   {
     title: 'TypeScript',
-    company_name: 'Starbucks',
     icon: typescript,
     iconBg: '#383E56',
     date: 'March 2020 - April 2021',
@@ -116,13 +113,13 @@ const experiences = [
   },
   {
     title: 'JavaScript',
-    company_name: 'Starbucks',
     icon: javascript,
     iconBg: '#383E56',
     date: 'March 2020 - April 2021',
     points: [
       'Metaverse-Infinite Website mit Animationen',
       'Portfolio Website mit 3d-Model und Animationen',
+      'Hardware Shop',
     ],
   },
 ]
@@ -130,7 +127,7 @@ const experiences = [
 const projects = [
   {
     name: 'Metaverse Infinite',
-    description: 'Metaverse Theme Website mit Animationen',
+    description: 'Metaverse Website mit Animationen',
     tags: [
       {
         name: 'react',
@@ -154,45 +151,59 @@ const projects = [
     website_link: 'https://metaverse-infinite.de/'
   },
   {
-    name: 'Job IT',
-    description: 'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+    name: 'Fastray',
+    description: 'Hardware Shop.',
     tags: [
       {
         name: 'react',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
+        name: 'tailwind',
         color: 'pink-text-gradient',
       },
     ],
-    image: jobit,
-    source_code_link: 'https://github.com/',
+    image: fastray,
+    source_code_link: 'https://github.com/Harlequin8x/fastray',
+    website_link: 'https://fastray.de/',
   },
-  // {
-  //   name: 'Trip Guide',
-  //   description: 'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
-  //   tags: [
-  //     {
-  //       name: 'nextjs',
-  //       color: 'blue-text-gradient',
-  //     },
-  //     {
-  //       name: 'supabase',
-  //       color: 'green-text-gradient',
-  //     },
-  //     {
-  //       name: 'css',
-  //       color: 'pink-text-gradient',
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: 'https://github.com/',
-  // },
+  {
+    name: '3d Portfolio',
+    description: '3D Portfolio',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'three',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'react three fiber',
+        color: 'pink-text-gradient',
+      },
+      {
+        name: 'react three drei',
+        color: 'orange-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'email js',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'vite',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: portfolio,
+    source_code_link: 'https://github.com/Harlequin8x/3d_portfolio',
+    website_link: 'https://ioannis-saltidis.eu/',
+  },
 ]
 
 export { services, technologies, experiences, projects }

@@ -9,8 +9,6 @@ import close from './close.svg'
 import website from './website.png'
 
 import css from './tech/css.png'
-import docker from './tech/docker.png'
-import figma from './tech/figma.png'
 import git from './tech/git.png'
 import html from './tech/html.png'
 import javascript from './tech/javascript.png'
@@ -25,13 +23,9 @@ import csharp1 from './tech/csharp1.png'
 import java1 from './tech/java1.png'
 
 import meta from './company/meta.png'
-import shopify from './company/shopify.png'
-import starbucks from './company/starbucks.png'
-import tesla from './company/tesla.png'
 
-import carrent from './carrent.png'
-import jobit from './jobit.png'
-import tripguide from './tripguide.png'
 import metaverse from './metaverse.png'
+import fastray from './fastray.png'
+import portfolio from './portfolio.png'
 
-export { metaverse, website, logo, backend, creator, mobile, web, github, menu, close, css, docker, figma, git, html, javascript, mongodb, nodejs, reactjs, redux, tailwind, typescript, threejs, meta, shopify, starbucks, tesla, carrent, jobit, tripguide, java1, csharp1 }
+export { metaverse, website, logo, backend, creator, mobile, web, github, menu, close, css, git, html, javascript, mongodb, nodejs, reactjs, redux, tailwind, typescript, threejs, meta, java1, csharp1, fastray, portfolio }

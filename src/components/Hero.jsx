@@ -17,7 +17,7 @@ const Hero = () => {
             Hi, ich bin <span className="text-[#915eff]">Ioannis</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Ich entwickle Web-Anwendungen mit Animationseffekten. <br className="sm-block hidden" />
+            Ich entwickle Web-Anwendungen mit JavaScript. <br className="sm-block hidden" />
           </p>
         </div>
       </div>
