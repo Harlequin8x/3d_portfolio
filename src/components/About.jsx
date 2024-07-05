@@ -47,8 +47,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        Softwareentwickler mit Expertise in JavaScript, TypeScript und Java und Erfahrung mit modernen Frameworks wie React,
-        Node.js und Spring Boot.
+        Softwareentwickler mit Expertise in JavaScript und Erfahrung mit modernen Frameworks wie React und Node.js.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

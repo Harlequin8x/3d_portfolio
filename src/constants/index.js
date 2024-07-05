@@ -15,21 +15,21 @@ export const navLinks = [
   },
 ]
 
-const services = [
+const services = [  
   {
-    title: 'Web-Entwickler',
+    title: 'JavaScript',
     icon: web,
   },
   {
-    title: 'JavaScript-Entwickler',
+    title: 'TypeScript',
     icon: mobile,
   },
   {
-    title: 'TypeScript-Entwickler',
+    title: 'Java',
     icon: backend,
   },
   {
-    title: 'Java-Entwickler',
+    title: 'Web-Anwendungen',
     icon: creator,
   },
 ]
