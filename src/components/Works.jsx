@@ -80,14 +80,14 @@ const Works = () => {
       <div className="w-full flex">
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
-          className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+          className="mt-3 text-secondary text-[19px] max-w-4xl leading-[30px]"
         >
           Die folgenden Projekte veranschaulichen meine Erfahrungen mit verschiedenen Technologien. Jedes Projekt hat eine kurze
           Beschreibung mit Link zur Website und dem Code-Repositorie.
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className="mt-20 flex gap-7">
         {projects.map((project, index) => (
           <ProjectCard
             key={`project-${index}`}

@@ -1,4 +1,7 @@
-import { mobile, backend, creator, web, javascript, typescript, html, css, reactjs, tailwind, nodejs, mongodb, git, threejs, java1, csharp1, metaverse, fastray, portfolio } from '../assets'
+import {
+  mobile, backend, creator, web, javascript, typescript, html, css, reactjs, tailwind, nodejs, mongodb, git, threejs,
+  java1, csharp1, metaverse, fastray, portfolio, rb_website
+} from '../assets'
 
 export const navLinks = [
   {
@@ -15,7 +18,7 @@ export const navLinks = [
   },
 ]
 
-const services = [  
+const services = [
   {
     title: 'JavaScript',
     icon: web,
@@ -29,7 +32,7 @@ const services = [
     icon: backend,
   },
   {
-    title: 'Web-Anwendungen',
+    title: 'Websites',
     icon: creator,
   },
 ]
@@ -120,6 +123,7 @@ const experiences = [
       'Metaverse-Infinite Website mit Animationen',
       'Portfolio Website mit 3d-Model und Animationen',
       'Hardware Shop',
+      'Financial Guide Landingpage',
     ],
   },
 ]
@@ -168,7 +172,7 @@ const projects = [
     website_link: 'https://fastray.de/',
   },
   {
-    name: '3d Portfolio',
+    name: '3D Portfolio',
     description: '3D Portfolio',
     tags: [
       {
@@ -203,6 +207,23 @@ const projects = [
     image: portfolio,
     source_code_link: 'https://github.com/Harlequin8x/3d_portfolio',
     website_link: 'https://ioannis-saltidis.eu/',
+  },
+  {
+    name: 'Financial Guide',
+    description: 'Landingpage',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'tailwind',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: rb_website,
+    source_code_link: 'https://github.com/Harlequin8x/ConsultingWebsite.git',
+    website_link: 'https://ronneybawa-guide.de/',
   },
 ]
 

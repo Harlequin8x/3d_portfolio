@@ -27,5 +27,9 @@ import meta from './company/meta.png'
 import metaverse from './metaverse.png'
 import fastray from './fastray.png'
 import portfolio from './portfolio.png'
+import rb_website from './rb_website.png'
 
-export { metaverse, website, logo, backend, creator, mobile, web, github, menu, close, css, git, html, javascript, mongodb, nodejs, reactjs, redux, tailwind, typescript, threejs, meta, java1, csharp1, fastray, portfolio }
+export {
+    metaverse, website, logo, backend, creator, mobile, web, github, menu, close, css, git, html, javascript, mongodb,
+    nodejs, reactjs, redux, tailwind, typescript, threejs, meta, java1, csharp1, fastray, portfolio, rb_website,
+}

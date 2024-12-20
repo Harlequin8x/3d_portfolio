@@ -26,7 +26,7 @@ const Navbar = () => {
             alt="logo"
             className="w-[5%] h-[5%] object-contain"
           />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
+          <p className="text-white text-[24px] font-bold cursor-pointer flex">
             Ioannis Saltidis &nbsp; <span className="sm:block hidden"> | Developer </span>
           </p>
         </Link>
